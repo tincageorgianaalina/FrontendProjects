@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>How to make Tea</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>How to make Tea</h1>
+        <img src="https://i.imgur.com/Fa15uaJ.jpeg" alt="How to make tea" />
+        <p>
+          Making a perfect pot of tea is all in the details. Learn the proper
+          way to make tea with my step-by-step instructions.
+        </p>
+      </header>
+      <section
+        id="ingredients"
+        onmouseover="ingredientsHover()"
+        onmouseout="ingredientsNormal()"
+      >
+        <h2>
+          What you'll need <i class="fa fa-coffee" aria-hidden="true"></i>
+        </h2>
+        <ul>
+          <li>Loose tea</li>
+          <li>Filtered water (<em>Optional</em>)</li>
+          <li>Teapot with infuser</li>
+          <li>Electric kettle with temperature setting</li>
+        </ul>
+      </section>
+      <section
+        id="preparation"
+        onmouseover="preparationHover()"
+        onmouseout="preparationNormal()"
+      >
+        <h2>
+          Steps to make Tea
+          <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+        </h2>
+        <ol>
+          <li>
+            <strong>Boil water.</strong> Different types of tea require
+            different water temperature to brew. Check the tea packaging to see
+            the recommended water temperature.
+          </li>
+          <li>
+            <strong>Warm up teapot.</strong> This step is a detail that takes
+            your tea to the next level and almost no one does it. But they
+            should. Take some of the boiled water and fill half the teapot and
+            give it a few swirls then throw out the water. We’re warming the
+            teapot so that when the hot water for tea goes in, the water
+            temperature won’t drop too much.
+          </li>
+          <li><strong>Put tea into teapot and add hot water.</strong></li>
+          <li>
+            <strong>Cover teapot and steep tea.</strong> Set the timer on your
+            phone to steep it to the correct amount of time. The steep time is
+            different for each kind of tea so check the tea package to see what
+            is recommended. Usually it's no more than 5 minutes.
+          </li>
+          <li>
+            <strong>Strain tea solids and pour hot tea into tea cups.</strong>
+          </li>
+        </ol>
+      </section>
+      <footer>
+        <p>Copyright Me 2022</p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
